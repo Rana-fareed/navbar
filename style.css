@@ -20,7 +20,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 33%;
+    width: 30%;
     font-size: 1.5rem;
     font-weight: 700;
     align-items: center;
@@ -56,4 +56,55 @@
     background-color: #F5F7FA;
     color: rgb(6, 72, 240);
     border-radius: 8px;
+}
+.icon{
+    font-size: 2rem;
+    color: #123251;
+    display: none;
+}
+
+.main{
+    padding-top: 50px;
+    background-color: #dae2ea;
+}
+.submain{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+}
+.images, img{
+   height: 500px;
+   width: 450px;
+   border: 1px solid #123251;
+   border-radius: 50%;
+}
+.para{
+    font-size: 1.5rem;
+}
+.heading{
+   border-bottom: 2px solid #123251;
+   display: inline-block;
+   padding-bottom: 2px;
+   margin-bottom: 20px;
+    
+}
+
+
+@media (max-width: 1050px) {
+
+    .child2{
+        display: none;
+    }
+     .child3{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .images, img{
+        height: 420px;
+        width: 370px;
+    }
+    
 }
